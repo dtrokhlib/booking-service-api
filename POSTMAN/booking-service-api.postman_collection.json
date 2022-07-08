@@ -165,7 +165,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"email\": \"doc3@doc.com\",\r\n\t\"password\": \"doc\"\r\n}\r\n",
+					"raw": "{\r\n\t\"email\": \"doc2@doc.com\",\r\n\t\"password\": \"doc\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
