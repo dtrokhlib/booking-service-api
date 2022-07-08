@@ -1,0 +1,41 @@
+{
+    "name": "booking-service-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "readme.js",
+    "scripts": {
+        "start": "node ./dist/src/server.js",
+        "build": "tsc",
+        "dev:inspect": "nodemon -e ts,json --exec node --inspect=localhost:9222 -r ts-node/register src/server.ts",
+        "dev": "nodemon"
+    },
+    "keywords": [],
+    "author": "Dmitriy Trokhlib",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "class-transformer": "^0.5.1",
+        "class-validator": "^0.13.2",
+        "date-fns": "^2.28.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.18.1",
+        "inversify": "^6.0.1",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.4",
+        "mongoose": "^6.4.3",
+        "node-schedule": "^2.1.0",
+        "reflect-metadata": "^0.1.13",
+        "ts-node": "^10.8.2",
+        "tslog": "^3.3.3",
+        "typescript": "^4.7.4"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.0",
+        "@types/express": "^4.17.13",
+        "@types/jsonwebtoken": "^8.5.8",
+        "@types/node-schedule": "^2.1.0",
+        "nodemon": "^2.0.15",
+        "ts-node": "^10.8.2",
+        "typescript": "^4.7.4"
+    }
+}
