@@ -1,5 +1,7 @@
+## General setup
 
-1.npm i
-2.npm run dev
-
-All requests can be tested from postman / examples with data is added in the postman folder
+```
+npm i
+npm run dev
+```
+Example of requests can be found in *postman* folder with Environment for
